@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Zoniaina Rémi ANDRIAHENINTSOA · Zynto</title>
+<meta name="description" content="Carte de visite Zynto : Zoniaina Rémi ANDRIAHENINTSOA, Développeur Full-Stack. Emails, téléphones et contact à enregistrer.">
+<meta name="theme-color" content="#021F42">
+<meta property="og:title" content="Zoniaina Rémi ANDRIAHENINTSOA · Zynto">
+<meta property="og:description" content="Carte de visite Zynto — Développeur Full-Stack, Antananarivo.">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <span class="brand" id="brand">Zynto <small>Carte de visite</small></span>
+    <a class="btn sm ghost" href="admin.html" id="adminLink">Admin</a>
+  </div>
+  <div id="card"></div>
+  <div class="actions">
+    <button class="btn primary" type="button" id="addContact"></button>
+    <button class="btn" type="button" id="qrBtn"></button>
+    <button class="btn" type="button" id="shareBtn" style="grid-column:1/-1"></button>
+  </div>
+  <div class="qr-box" id="qrBox" hidden></div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script src="assets/card.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
