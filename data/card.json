@@ -3,10 +3,19 @@
   "prenom": "Zoniaina Rémi",
   "poste": "Développeur Full-Stack",
   "showPoste": true,
-  "emails": ["zynto.servicemg@gmail.com", "andriahenintsoaremizoniaina@gmail.com"],
-  "phones": [
-    { "n": "+261 34 90 697 20", "wa": true },
-    { "n": "+261 37 20 818 24", "wa": false }
+  "emails": [
+    "zynto.servicemg@gmail.com",
+    "andriahenintsoaremizoniaina@gmail.com"
   ],
-  "photo": ""
+  "phones": [
+    {
+      "n": "+261 34 90 697 20",
+      "wa": true
+    },
+    {
+      "n": "+261 37 20 818 24",
+      "wa": false
+    }
+  ],
+  "photo": "data/photo.jpg?v=2c0d94eb"
 }
